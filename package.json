@@ -1,12 +1,23 @@
 {
-  "name": "Excel to Json",
+  "name": "exceltojson",
   "version": "1.0.0",
+  "description": "- add file in './exports/excles'; - type in terminal: ```javascript $ node app.js --file='filename.xlsx' ``` - the json result will export in './exports/json'",
   "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angepili/excelToJson.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angepili/excelToJson/issues"
+  },
+  "homepage": "https://github.com/angepili/excelToJson#readme",
   "dependencies": {
-    "excel-as-json": "^2.0.0",
-    "gulp": "^3.9.1",
+    "excel-as-json": "^2.0.2",
     "yargs": "^11.0.0"
   }
 }
