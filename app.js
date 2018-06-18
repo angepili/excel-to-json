@@ -1,5 +1,4 @@
-var gulp            = require('gulp'),
-    convertExcel    = require('excel-as-json').processFile,
+var convertExcel    = require('excel-as-json').processFile,
     argv            = require('yargs').argv,
     fileName = argv.file,
     getdate = new Date(),
