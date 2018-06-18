@@ -1,2 +1,8 @@
-#Convert Excel file to Json
-node app.js --file='filename.xlsx'
+# Convert Excel file to Json . 
+
+- add file in './exports/excles';
+- type in terminal:
+```javascript
+$ node app.js --file='filename.xlsx'
+```
+- the json result will export in './exports/json'
